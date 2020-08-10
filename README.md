@@ -3,14 +3,13 @@ Serverless example - API that will use a string as input and does a find and rep
 # What's Here
 pom.xml - this file is the Maven Project Object Model for the web application                          
 src/main - this directory contains your Java service source files                    
-src/test - this directory contains your Java service unit test files                        
+src/test - this directory contains your Java service unit test files 
+Serverless.pdf - Architecture of serverless Stack
 # AWS Services used in development
   S3 -  To Store application  JAR             
   API Gateway -  To Create API and Invoke lamda function                                 
   Lamda function -                                            
   Cloud watch -  For logging 
-# Architecure - 
-
 # How to access the application - Curl or import the project in postman from given link.
 ## Request -
 curl --location --request POST 'https://h4mppdw6l8.execute-api.us-east-1.amazonaws.com/default/deloitte-spring-cloud-function' \
