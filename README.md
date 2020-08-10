@@ -10,7 +10,7 @@ src/test - this directory contains your Java service unit test files
   Lamda function -                                            
   Cloud watch -  For logging 
 # Request -
-  curl --location --request POST 'https://h4mppdw6l8.execute-api.us-east-1.amazonaws.com/default/deloitte-spring-cloud-function' \
+curl --location --request POST 'https://h4mppdw6l8.execute-api.us-east-1.amazonaws.com/default/deloitte-spring-cloud-function' \
 --header 'Content-Type: application/json' \
 --data-raw 'We really like the new security features of Amazon Cloud'
 # Response
