@@ -1,4 +1,4 @@
-# deloitteapp-kapil - serverless  example 
+# kapil - serverless  example 
 Serverless example - API that will use a string as input and does a find and replace for certain words and outputs the result. For example: replace Google for Google©
 # What's Here
 pom.xml - this file is the Maven Project Object Model for the web application                          
